@@ -8,7 +8,6 @@
     <Carrusel />
     <Direccion />
     <Vid />
-    <Menus />
   </div>
 </template>
 
