@@ -1,12 +1,7 @@
 {
-  "name": "dfh",
-  "version": "1.0.0",
+  "name": "nuxt-app",
   "private": true,
-  "description": "Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
-  "license": "ISC",
-  "author": "",
   "type": "module",
-  "main": "index.js",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -15,9 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "nuxt": "^3.15.2",
+    "nuxt": "^3.15.3",
     "vue": "latest",
     "vue-router": "latest"
-  },
-  "devDependencies": {}
+  }
 }

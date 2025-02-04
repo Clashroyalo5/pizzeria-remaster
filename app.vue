@@ -1,15 +1,10 @@
-<template>
-  <LoaderWrapper />
-  
 
-  <!-- Contenido principal, se muestra solo cuando el loader desaparece -->
-  <div id="content" style="display: block;">
-    
-    <Welcome />
+<template>
+  <div>
+    <Menu/>
   </div>
 </template>
 
-<script setup lang="ts">
+<script>
 
-import Welcome from "./components/welcome.vue"; // Importa el componente Welcome
 </script>
